@@ -19,9 +19,7 @@ You can find the source code for Jekyll at GitHub:
 
 Syrian, 24, with Bachelor's degree in Informatics Engineering.
 
-I'm self–motivated, hard working. Interested in the design, analysis and development of web based applications.
-
-no founder of any startup, no C-anything-O, just made some small projects two of them are on production with only few active users!
+I'm self–motivated, hard working. Interested in the design, analysis and development of web based applications. No founder of any startup, no C-anything-O, just made some small projects two of them are on production with only few active users!
 
 but .. who knows what could possibly happen next ;)
 
