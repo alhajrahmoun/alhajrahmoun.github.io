@@ -17,8 +17,12 @@ You can find the source code for Jekyll at GitHub:
 
 [jekyll-organization]: https://github.com/jekyll -->
 
-Software Engineer who is self–motivated, hard working. Interested in the design, analysis and development of web based applications.
+Syrian, 24, with Bachelor's degree in Informatics Engineering.
 
+I'm self–motivated, hard working. Interested in the design, analysis and development of web based applications.
 
+no founder of any startup, no C-anything-O, just made some small projects two of them are on production with only few active users!
 
+but .. who knows what could possibly happen next ;)
 
+want to know more? check out my [Linkedin Profile](https://www.linkedin.com/in/mhdrahmoun/).
