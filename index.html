@@ -1,100 +1,486 @@
 <!DOCTYPE html>
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
 
-<title> Mohammed Al Haj Rahmoun's CV</title>
-<link href="./css/cv-screen.css" type="text/css" rel="stylesheet" media="screen">
-<link href="./css/cv-print.css" type="text/css" rel="stylesheet" media="print">
-<link href="./css/academicons.min.css" rel="stylesheet">
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Mohamad Alhaj Rahmoun</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css">
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+	 ================================================== -->
+	 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
+
+   <!-- script
+   ================================================== -->   
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
 </head>
-<body>
-<div id="main">
-<div id="content">
-<h1 id="mhrahmoun">Mohammed Al Haj Rahmoun</h1>
-<p>Software Engineer and Rubyist</p>
-<div id="webaddress">
-<a href="mailto:mrahmoun93@gmail.com">mrahmoun93@gmail.com</a>
-|
-<i class="fa fa-github"></i> <a href="https://github.com/mhdrahmoun">mhdrahmoun</a>
-|
-<i class="fa fa-twitter"></i> <a href="https://twitter.com/mhdrahmoun">mhdrahmoun</a>
-</div>
-<h2 id="summary">Summary</h2>
-<p>A Software Engineer who is self–motivated, hard working. Interested in the design, analysis and development of web based applications.</p>
-<h2 id="about">About</h2>
-<p>Aleppo, Syria</p>
-<p>Mobile number: +963936263684</p>
-<p>Date of birth 17 January 1993</p>
-<p>Languages: Arabic (Native), English (Upper Intermediate)</p>
 
-<h2 id="employment">Employment</h2>
-<p><code>2018-</code>
-<strong>ORENDA LTD.</strong> Ruby on Rails developer, working remotely with a team on <a href="https://www.startany.com/pazardy">Pazardy</a></p>
-<p><code>2017-18</code>
-<strong>Syrian Arab Red Crescent</strong> MHU (Mobile Health Unit) Administrator.</p>
+<body id="top">
 
-<h2 id="education">Education</h2>
-<p><code>2011-16</code>
-<strong>University of Aleppo</strong> Bachelor's degree, Information Technology, 77.6</p>
+	<!-- header 
+   ================================================== -->
+   <header>   	
+   	<div class="row">
 
-<h2 id="technical-skills">Technical skills</h2>
-<ul>
-<li>Ruby</li>
-<li>SQL</li>
-<li>Git</li>
-<li>Heroku</li>
-<li>Ubuntu Server Administration</li>
-<li>RESTful WebServices</li>
-<li>API Development</li>
-<li>Agile Web Development</li>
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
 
+	   		<div class="logo">
+		         <a href="index.html">Mohamad</a>
+		      </div>		      
 
-</ul>
-<h2 id="areas-of-expertise">Areas of expertise</h2>
-<ul>
-<li>Image possessing</li>
-<li>Networks Administration</li>
-<li>Software development</li>
-<li>Database design/developemnt</li>
-</ul>
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
+					</ul>
+				</nav>    		
+   		</div> <!-- /top-bar --> 
+   		
+   	</div> <!-- /row --> 		
+   </header> <!-- /header -->
 
-<h2 id="projects">Personal Projects</h2>
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">   
 
-<h3 id="jawhar">Jawhar|2017</h3>
-<p><a href="http://jawharus.herokuapp.com">Jawhar</a> is an arabic snippets manager that helps developers save and manage code snippets for fast access in the future.<em>(<a href="https://github.com/mhdrahmoun/Jawhar">Source code</a>)</em> </p>
+   	<div class="intro-overlay"></div>	
 
-<h3 id="borrow">Borrow a Book|2016</h3>
-<p>Ruby on Rails | An api and control panel for a mobile app called <a href="https://www.facebook.com/borrow.book/photos/a.354927694653405.1073741828.319538984858943/1015917471887754/?type=3&permPage=1">Borrow a book</a> made for a local non-profit borrowing books initiative in Aleppo.<em>(<a href="https://github.com/mhdrahmoun/book-borrow">Source code</a>)</em>.</p>
+   	<div class="intro-content">
+   		<div class="row">
 
-<h3 id="faceRec">Face Recognition in live streaming|2016</h3>
-<p>C++, Ruby, Javascript | A web based face recognition system using C++ OpenCV library for the face recognition implementation and Ruby on Rails for the web end created as a graduation project.</p>
+   			<div class="col-twelve">
 
-<h3 id="bookShare">Book Share|2015</h3>
-<p>Ruby on Rails | My first web application was a social network for book readers in Aleppo University.<em>(<a href="https://github.com/mhdrahmoun/BookShare">Source code</a>)</em></p>
+	   			<h5>Hello, World.</h5>
+	   			<h1>I'm Mohamad Alhaj Rahmonun.</h1>
+
+	   			<p class="intro-position">
+	   				<span>back-end Developer</span>
+	   				<span>Rubyist</span> 
+	   			</p>
+
+	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> <!-- /intro-content --> 
+
+   	<ul class="intro-social">        
+         <li><a href="https://www.facebook.com/mhdrahmoun"><i class="fab fa-facebook"></i></a></li>
+         <li><a href="https://github.com/mhdrahmoun"><i class="fab fa-github"></i></a></li>
+         <li><a href="https://twitter.com/mhdrahmoun"><i class="fab fa-twitter"></i></a></li>
+         <li><a href="https://www.linkedin.com/in/mhdrahmoun/"><i class="fab fa-linkedin"></i></a></li>
+      </ul> <!-- /intro-social -->      	
+
+   </section> <!-- /intro -->
 
 
-<h3 id="com">FileTransferCOM|2014</h3>
-<p>C# | A peer-to-peer file transfer windows application using Serial Port COM.</p>
+   <!-- about section
+   ================================================== -->
+   <section id="about">  
 
-<h2 id="links">Links</h2>
+   	<div class="row section-intro">
+   		<div class="col-twelve">
 
-<ul>
-<li><i class="fa fa-envelope"></i> <a href="mailto:mrahmoun93@gmail.com">mrahmoun93@gmail.com</a><br></li>
-<li><i class="fa fa-github"></i> <a href="https://github.com/mhdrahmoun">mhdrahmoun</a><br></li>
-<li><i class="fa fa-twitter"></i> <a href="https://twitter.com/mhdrahmoun">mhdrahmoun</a><br></li>
-<li><i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/mhdrahmoun/">mhdrahmoun</a></li>
+   			<h5>About</h5>
+   			<h1>Let me introduce myself.</h1>
 
-</ul>
-<h2 id="references">References</h2>
-<p>Available on request.</p>
+   			<div class="intro-info">
 
-</div>
-</div>
-<br>
-<br>
-<div class="footer"><em><h5><a href="https://github.com/blmoore">Benjamin L. Moore</a> owns this template.</em></h5></div>
+   				<img src="images/profile-pic.jpg" alt="Profile Picture">
+
+   				<p class="lead">A Software Engineer who is self–motivated, hard working. Interested in the design, analysis and development of web based applications.</p>
+   			</div>   			
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row about-content">
+
+   		<div class="col-six tab-full">
+
+   			<h3>Profile</h3>
+
+   			<ul class="info-list">
+   				<li>
+   					<strong>Fullname:</strong>
+   					<span>Mohamad Alhaj Rahmoun</span>
+   				</li>
+   				<li>
+   					<strong>Birth Date:</strong>
+   					<span>January 17, 193</span>
+   				</li>
+   				<li>
+   					<strong>Job:</strong>
+   					<span>Rubyist, Backend Developer @ <a href="https://www.bookdoc.com" >BookDoc</a></span>
+   				</li>
+   				<li>
+   					<strong>Website:</strong>
+   					<span>www.mhrahmoun.me</span>
+   				</li>
+   				<li>
+   					<strong>Email:</strong>
+   					<span>mrahmoun93@gmail.com</span>
+   				</li>
+
+   			</ul> <!-- /info-list -->
+
+   		</div>
+
+   		<div class="col-six tab-full">
+
+   			<h3>Skills</h3>
+
+				<ul class="skill-bars">
+				   <li>
+				   	<div class="progress percent90"></div>
+				   	<strong>Ruby & Rails</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent85"></div>
+				   	<strong>API Development</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent70"></div>
+				   	<strong>DevOps</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent95"></div>
+				   	<strong>Git</strong>
+				   </li>
+				   <li>
+
+				   	<div class="progress percent75"></div>
+				   	<strong>SQL</strong>
+				   </li>
+      
+				</ul> <!-- /skill-bars -->		
+
+   		</div>
+
+   	</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+   			<a href="#" title="Download CV" class="button button-primary">Download CV</a>
+   		</div>   		
+   	</div>
+
+   </section> <!-- /process-->    
 
 
-</body></html>
+   <!-- resume Section
+   ================================================== -->
+	<section id="resume" class="grey-section">
+
+			<div class="row resume-timeline">
+
+					<div class="col-twelve resume-header">
+	 
+						<h2>Personal Projects</h2>
+	 
+					</div> <!-- /resume-header -->
+	 
+					<div class="col-twelve">
+	 
+						<div class="timeline-wrap">
+
+								<div class="timeline-block">
+	 
+										<div class="timeline-ico">
+												<i class="fab fa-chrome"></i>
+										</div>
+			 
+										<div class="timeline-header">
+											<p>2019</p>
+										</div>
+			 
+										<div class="timeline-content">
+											<h4><a href="http://mylestone.life/">Mylestone</a></h4>
+											<p>Mylestone is a tiny webApp made to let users save and share achievements and milestones with the world</p>
+										</div>
+			 
+									</div> <!-- /timeline-block -->
+	 
+							<div class="timeline-block">
+	 
+								<div class="timeline-ico">
+										<i class="fab fa-chrome"></i>
+								</div>
+	 
+								<div class="timeline-header">
+									<p>2017</p>
+								</div>
+	 
+								<div class="timeline-content">
+									<h4><a href="http://jawharus.herokuapp.com">Jawhar</a></h4>
+									<p> Jawhar is an arabic snippets manager that helps developers save and manage code snippets for fast access in the future.<em>(<a href="https://github.com/mhdrahmoun/Jawhar">Source code</a>)</em> </p>
+								</div>
+	 
+							</div> <!-- /timeline-block -->
+	 
+							<div class="timeline-block">
+	 
+								<div class="timeline-ico">
+									<i class="fa fa-briefcase"></i>
+								</div>
+	 
+								<div class="timeline-header">
+									<p>2016</p>
+								</div>
+	 
+								<div class="timeline-content">
+									<h4><a href="https://www.facebook.com/borrow.book/photos/a.354927694653405.1073741828.319538984858943/1015917471887754/?type=3&amp;permPage=1">Borrow a book</a></h4>
+									<p><p>Ruby on Rails | An api and control panel for a mobile app called Borrow a book made for a local non-profit borrowing books initiative in Aleppo.<em>(<a href="https://github.com/mhdrahmoun/book-borrow">Source code</a>)</em>.</p></p>
+								</div>
+	 
+							</div> <!-- /timeline-block -->
+	 
+							<div class="timeline-block">
+	 
+								<div class="timeline-ico">
+									<i class="fa fa-briefcase"></i>
+								</div>
+	 
+								<div class="timeline-header">
+									<p>2016</p>
+								</div>
+	 
+								<div class="timeline-content">
+									<h4>Face Recognition in live streaming | Graduation Project</h4>
+									<p>C++, Ruby, Javascript | A web based face recognition system using C++ OpenCV library for the face recognition implementation and Ruby on Rails for the web end created as a graduation project.</p>
+								</div>
+	 
+							</div> <!-- /timeline-block -->
+	 
+						</div> <!-- /timeline-wrap -->   			
+	 
+					</div> <!-- /col-twelve -->
+					
+				</div> <!-- /resume-timeline -->
+
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Work Experience</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Back-end Developer</h3>
+	   					<p>September 2018 - Present</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>BookDoc | Malaysia</h4>
+	   					<p><ul>
+								 <li>Creating APIs.</li>
+								 <li>Making integrations with third party services.</li>
+								 <li>Improving the existing solutions performance.</li>
+							 </ul></p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Back-end Developer</h3>
+	   					<p>April 2018 - August 2018</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>ORENDA LTD | Turkey (Remote)</h4>
+	   					<p>Working remotely with a team on <a href="https://www.startany.com/pazardy">Pazardy</a></p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Administrator</h3>
+	   					<p>March 2017 - August 2018</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Syrian Arab Red Crescent | Syria</h4>
+	   					<p>I was a Mobile Health Unit Admin responsible of generating monthly reports
+							 </p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+   	
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Education</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Bachelor's degree</h3>
+	   					<p>2011 - 2016</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>University of Aleppo</h4>
+	   					<p>Computer Science, 77.6</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+		
+	</section> <!-- /features -->
+
+	
+   <!-- contact
+   ================================================== -->
+	<section id="contact">
+   	<div class="row contact-info">
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-pin"></i>
+   			</div>
+
+   			<h5>Where to find me</h5>
+
+   			<p> Damansara Perdana, PJ<br>
+            47820 Malaysia
+            </p>
+
+   		</div>
+
+   		<div class="col-four tab-full collapse">
+
+   			<div class="icon">
+   				<i class="icon-mail"></i>
+   			</div>
+
+   			<h5>Email Me At</h5>
+
+   			<p>mrahmoun93@gmail.com</p>
+
+   		</div>
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-phone"></i>
+   			</div>
+
+   			<h5>Call Me At</h5>
+
+   			<p>Mobile: (+60) 105246241</p>
+
+   		</div>
+   		
+   	</div> <!-- /contact-info -->
+		
+	</section> <!-- /contact -->
+
+
+   <!-- footer
+   ================================================== -->
+
+   <footer>
+     	<div class="row">
+
+     		<div class="col-six tab-full pull-right social">
+
+     			<ul class="footer-social">        
+						<li><a href="https://www.facebook.com/mhdrahmoun"><i class="fab fa-facebook"></i></a></li>
+						<li><a href="https://github.com/mhdrahmoun"><i class="fab fa-github"></i></a></li>
+						<li><a href="https://twitter.com/mhdrahmoun"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/mhdrahmoun/"><i class="fab fa-linkedin"></i></a></li>
+						</ul> 
+	      		
+	      </div>
+
+      	<div class="col-six tab-full">
+	      	<div class="copyright">
+		        	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>	         	
+		         </div>		                  
+	      	</div>
+
+	      	<div id="go-top">
+							<a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-alt-up"></i></a>
+		      </div>
+
+      	</div> <!-- /row -->     	
+   </footer>  
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+	 <script src="js/main.js"></script>
+
+</body>
+
+</html>
