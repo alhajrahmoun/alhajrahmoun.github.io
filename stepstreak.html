@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>StepStreak</title>
+        <style>
+            /* Base styles with a dark theme */
+            body {
+                background-color: #121212;
+                color: #e0e0e0;
+                font-family:
+                    "Inter",
+                    -apple-system,
+                    BlinkMacSystemFont,
+                    "Segoe UI",
+                    Roboto,
+                    Oxygen,
+                    Ubuntu,
+                    Cantarell,
+                    "Open Sans",
+                    "Helvetica Neue",
+                    sans-serif;
+                margin: 0;
+                padding: 0;
+                line-height: 1.6;
+            }
+
+            /* Header styles */
+            header {
+                padding: 2rem 0;
+                text-align: center;
+                border-bottom: 1px solid #2a2a2a;
+            }
+
+            .back-link {
+                position: absolute;
+                top: 2rem;
+                left: 2rem;
+                color: #64dfdf;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                transition: color 0.3s ease;
+            }
+
+            .back-link:hover {
+                color: #80ffdb;
+            }
+
+            .back-link svg {
+                width: 20px;
+                height: 20px;
+                margin-right: 8px;
+            }
+
+            /* Container for main content */
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 2rem;
+            }
+
+            /* Project title styling */
+            h1 {
+                font-size: 2.5rem;
+                margin: 0;
+                font-weight: 700;
+                background: linear-gradient(to right, #8e9eab, #eef2f3);
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+                margin-bottom: 1rem;
+            }
+
+            /* Section styling */
+            h2 {
+                font-size: 1.8rem;
+                margin: 2rem 0 1rem 0;
+                color: #a0a0a0;
+                border-bottom: 1px solid #2a2a2a;
+                padding-bottom: 0.5rem;
+            }
+
+            /* Project image */
+            .project-image {
+                width: 100%;
+                max-height: 400px;
+                object-fit: cover;
+                border-radius: 12px;
+                margin: 2rem 0;
+                background-color: #1e1e1e;
+            }
+
+            /* Technology pills */
+            .technologies {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0.5rem;
+                margin: 1rem 0 2rem 0;
+            }
+
+            .tech-pill {
+                background-color: #1e1e1e;
+                color: #64dfdf;
+                padding: 0.4rem 0.8rem;
+                border-radius: 20px;
+                font-size: 0.9rem;
+                font-weight: 500;
+            }
+
+            /* Project link button */
+            .project-link {
+                display: inline-block;
+                background-color: #64dfdf;
+                color: #121212;
+                padding: 0.8rem 1.6rem;
+                border-radius: 6px;
+                text-decoration: none;
+                font-weight: 600;
+                margin-top: 2rem;
+                transition: background-color 0.3s ease;
+            }
+
+            .project-link:hover {
+                background-color: #80ffdb;
+            }
+
+            /* Footer styles */
+            footer {
+                text-align: center;
+                padding: 2rem;
+                margin-top: 3rem;
+                border-top: 1px solid #2a2a2a;
+                color: #888;
+                font-size: 0.9rem;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <a href="index.html" class="back-link">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M10 19l-7-7m0 0l7-7m-7 7h18"
+                    />
+                </svg>
+                Back
+            </a>
+            <h1>StepStreak</h1>
+        </header>
+
+        <main class="container">
+            <h2>Overview</h2>
+            <p>
+                StepStreak offers a dynamic way to track and analyze your daily
+                activities, transforming your smartphone into a powerful
+                activity analyst. It's not just an app; it's your partner in
+                keeping active and engaged.
+            </p>
+
+            <h2>Technologies Used</h2>
+            <div class="technologies">
+                <span class="tech-pill">Ruby on Rails</span>
+                <span class="tech-pill">Turbo Native</span>
+                <span class="tech-pill">PostgreSQL</span>
+            </div>
+
+            <h2>Key Features</h2>
+            <ul>
+                <li>
+                    Activity tracking (steps, distance, and overall progress)
+                </li>
+                <li>
+                    Monthly summaries with visual charts showing activity trends
+                </li>
+                <li>Virtual step challenges and tournaments</li>
+            </ul>
+
+            <a
+                href="https://stepstreak.xyz"
+                target="_blank"
+                class="project-link"
+                >View Project</a
+            >
+        </main>
+
+        <footer>
+            <p>© 2025 Mohamad Alhaj Rahmoun - All rights reserved</p>
+        </footer>
+    </body>
+</html>
