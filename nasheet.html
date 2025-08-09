@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Nasheet</title>
+        <style>
+            /* Base styles with a dark theme */
+            body {
+                background-color: #121212;
+                color: #e0e0e0;
+                font-family:
+                    "Inter",
+                    -apple-system,
+                    BlinkMacSystemFont,
+                    "Segoe UI",
+                    Roboto,
+                    Oxygen,
+                    Ubuntu,
+                    Cantarell,
+                    "Open Sans",
+                    "Helvetica Neue",
+                    sans-serif;
+                margin: 0;
+                padding: 0;
+                line-height: 1.6;
+            }
+
+            /* Header styles */
+            header {
+                padding: 2rem 0;
+                text-align: center;
+                border-bottom: 1px solid #2a2a2a;
+            }
+
+            .back-link {
+                position: absolute;
+                top: 2rem;
+                left: 2rem;
+                color: #64dfdf;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                transition: color 0.3s ease;
+            }
+
+            .back-link:hover {
+                color: #80ffdb;
+            }
+
+            .back-link svg {
+                width: 20px;
+                height: 20px;
+                margin-right: 8px;
+            }
+
+            /* Container for main content */
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 2rem;
+            }
+
+            /* Project title styling */
+            h1 {
+                font-size: 2.5rem;
+                margin: 0;
+                font-weight: 700;
+                background: linear-gradient(to right, #8e9eab, #eef2f3);
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+                margin-bottom: 1rem;
+            }
+
+            /* Section styling */
+            h2 {
+                font-size: 1.8rem;
+                margin: 2rem 0 1rem 0;
+                color: #a0a0a0;
+                border-bottom: 1px solid #2a2a2a;
+                padding-bottom: 0.5rem;
+            }
+
+            /* Project image */
+            .project-image {
+                width: 150px;
+                height: 150px;
+                object-fit: cover;
+                border-radius: 12px;
+                margin: 2rem auto;
+                background-color: #1e1e1e;
+                display: block;
+            }
+
+            /* Technology pills */
+            .technologies {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0.5rem;
+                margin: 1rem 0 2rem 0;
+            }
+
+            .tech-pill {
+                background-color: #1e1e1e;
+                color: #64dfdf;
+                padding: 0.4rem 0.8rem;
+                border-radius: 20px;
+                font-size: 0.9rem;
+                font-weight: 500;
+            }
+
+            /* Project link button */
+            .project-link {
+                display: inline-block;
+                background-color: #64dfdf;
+                color: #121212;
+                padding: 0.8rem 1.6rem;
+                border-radius: 6px;
+                text-decoration: none;
+                font-weight: 600;
+                margin-top: 2rem;
+                transition: background-color 0.3s ease;
+            }
+
+            .project-link:hover {
+                background-color: #80ffdb;
+            }
+
+            /* Footer styles */
+            footer {
+                text-align: center;
+                padding: 2rem;
+                margin-top: 3rem;
+                border-top: 1px solid #2a2a2a;
+                color: #888;
+                font-size: 0.9rem;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <a href="index.html" class="back-link">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M10 19l-7-7m0 0l7-7m-7 7h18"
+                    />
+                </svg>
+                Back
+            </a>
+            <h1>Nasheet</h1>
+        </header>
+
+        <main class="container">
+            <img src="nasheet.webp" alt="Nasheet App" class="project-image" />
+
+            <h2>Overview</h2>
+            <p>
+                Go beyond counting steps. Nasheet turns your walks into cultural
+                adventures through authentic storytelling. Follow Nasheet's
+                journey from his hometown to destinations around the world,
+                where your daily steps unlock rich cultural discoveries and
+                meaningful experiences.
+            </p>
+
+            <h2>Key Features</h2>
+
+            <h3
+                style="
+                    color: #64dfdf;
+                    font-size: 1.2rem;
+                    margin-top: 1.5rem;
+                    margin-bottom: 0.5rem;
+                "
+            >
+                Smart Step Tracking
+            </h3>
+            <p>
+                Track your daily steps, distance, and activity while following
+                Nasheet's journey. Your movement unlocks new destinations and
+                cultural discoveries as you progress together.
+            </p>
+
+            <h3
+                style="
+                    color: #64dfdf;
+                    font-size: 1.2rem;
+                    margin-top: 1.5rem;
+                    margin-bottom: 0.5rem;
+                "
+            >
+                Two-Part Discovery Experience
+            </h3>
+            <p>
+                <strong>Arrival Stories:</strong> Reach landmarks to discover
+                what Nasheet sees and experiences when first arriving at each
+                location.
+            </p>
+            <p>
+                <strong>Deep Exploration:</strong> Add extra steps to unlock
+                rich cultural content, traditions, and hidden stories about each
+                place.
+            </p>
+
+            <h3
+                style="
+                    color: #64dfdf;
+                    font-size: 1.2rem;
+                    margin-top: 1.5rem;
+                    margin-bottom: 0.5rem;
+                "
+            >
+                Journey Around the World
+            </h3>
+            <p>
+                Starting from Nasheet's hometown, your steps will take you both
+                on a global adventure. Unlock new cities and landmarks as you
+                maintain your daily activity goals.
+            </p>
+
+            <h3
+                style="
+                    color: #64dfdf;
+                    font-size: 1.2rem;
+                    margin-top: 1.5rem;
+                    margin-bottom: 0.5rem;
+                "
+            >
+                Authentic Cultural Content
+            </h3>
+            <p>
+                Learn about architecture, traditions, and local stories through
+                Nasheet's personal discoveries. Each location offers rich
+                cultural insights that make your fitness journey meaningful.
+            </p>
+
+            <h2>Why Nasheet?</h2>
+            <p>
+                Combine your fitness goals with cultural exploration. Unlike
+                standard step trackers, Nasheet makes every walk an opportunity
+                to discover something new about our world. It's education and
+                exercise combined into one meaningful experience.
+            </p>
+
+            <h2>Technology Stack</h2>
+            <div class="technologies">
+                <span class="tech-pill">Ruby on Rails</span>
+                <span class="tech-pill">Hotwire Native</span>
+                <span class="tech-pill">Android (Kotlin)</span>
+                <span class="tech-pill">iOS (Swift)</span>
+            </div>
+
+            <div
+                style="
+                    display: flex;
+                    gap: 1rem;
+                    margin-top: 2rem;
+                    flex-wrap: wrap;
+                "
+            >
+                <a
+                    href="https://nasheet.app"
+                    target="_blank"
+                    class="project-link"
+                    >Official Website</a
+                >
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2025 Mohamad Alhaj Rahmoun - All rights reserved</p>
+        </footer>
+    </body>
+</html>

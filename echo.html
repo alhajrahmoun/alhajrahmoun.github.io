@@ -84,11 +84,8 @@
 
             /* Project image */
             .project-image {
-                width: 100%;
-                max-height: 400px;
-                object-fit: cover;
                 border-radius: 12px;
-                margin: 2rem 0;
+                margin: 2rem auto;
                 background-color: #1e1e1e;
             }
 
@@ -159,28 +156,158 @@
         </header>
 
         <main class="container">
-            <h2>Overview <span>(discontinued)</span></h2>
-            <p>A new way of social media!</p>
-
-            <p>No need to imagine how a tweet or post was said, hear it now.</p>
-
-            <p>
-                Share your favourite moments out loud, discuss and debate, rant
-                or sing out loud in one minute public voice records.
-            </p>
-
-            <h2>Technologies Used</h2>
-            <div class="technologies">
-                <span class="tech-pill">API - Ruby on Rails</span>
-                <span class="tech-pill">Android - Kotlin</span>
+            <div style="text-align: center; margin: 2rem 0">
+                <video
+                    width="280"
+                    height="600"
+                    controls
+                    class="project-image"
+                    poster="echo.webp"
+                >
+                    <source src="echo.mp4" type="video/mp4" />
+                    <p>
+                        Your browser doesn't support HTML5 video.
+                        <a href="echo.mp4">Download the video</a> instead.
+                    </p>
+                </video>
+                <p style="color: #888; font-size: 0.9rem; margin-top: 0.5rem">
+                    Echo in action - Real-time voice interaction demo
+                </p>
             </div>
 
-            <a
-                href="https://www.producthunt.com/products/echo-12"
-                target="_blank"
-                class="project-link"
-                >Product Hunt page</a
+            <h2>Overview</h2>
+            <p>
+                Echo is a sophisticated iOS voice assistant that demonstrates
+                the seamless integration of modern AI technologies for natural,
+                real-time conversations. Built with Swift and powered by
+                cutting-edge AI models, Echo provides an intuitive voice
+                interaction experience that feels both responsive and
+                intelligent.
+            </p>
+
+            <h2>Key Features</h2>
+
+            <h3
+                style="
+                    color: #64dfdf;
+                    font-size: 1.2rem;
+                    margin-top: 1.5rem;
+                    margin-bottom: 0.5rem;
+                "
             >
+                🎙️ Real-time Voice Recognition
+            </h3>
+            <p>
+                Utilizes Apple's native Speech Recognition framework for
+                accurate, on-device speech-to-text conversion with automatic
+                silence detection.
+            </p>
+
+            <h3
+                style="
+                    color: #64dfdf;
+                    font-size: 1.2rem;
+                    margin-top: 1.5rem;
+                    margin-bottom: 0.5rem;
+                "
+            >
+                🤖 Intelligent Conversations
+            </h3>
+            <p>
+                Powered by GPT-4 OSS 20B model for contextual, natural language
+                responses that understand context and provide meaningful
+                interactions.
+            </p>
+
+            <h3
+                style="
+                    color: #64dfdf;
+                    font-size: 1.2rem;
+                    margin-top: 1.5rem;
+                    margin-bottom: 0.5rem;
+                "
+            >
+                🔊 High-Quality Voice Synthesis
+            </h3>
+            <p>
+                Features Kokoro-TTS for expressive, human-like speech generation
+                with customizable voices and speed for natural-sounding
+                responses.
+            </p>
+
+            <h3
+                style="
+                    color: #64dfdf;
+                    font-size: 1.2rem;
+                    margin-top: 1.5rem;
+                    margin-bottom: 0.5rem;
+                "
+            >
+                🔒 Privacy-First Architecture
+            </h3>
+            <p>
+                Both the LLM model and TTS API are self-hosted, ensuring
+                complete privacy. Echo can work entirely offline without sending
+                any data to the internet, keeping conversations completely
+                private and secure.
+            </p>
+
+            <h3
+                style="
+                    color: #64dfdf;
+                    font-size: 1.2rem;
+                    margin-top: 1.5rem;
+                    margin-bottom: 0.5rem;
+                "
+            >
+                ⚡ Streaming Audio Architecture
+            </h3>
+            <p>
+                Advanced real-time audio streaming system that provides
+                immediate response playback as content is generated, ensuring
+                responsive interaction.
+            </p>
+
+            <h2>How It Works</h2>
+            <div
+                style="
+                    background-color: #1e1e1e;
+                    padding: 1.5rem;
+                    border-radius: 8px;
+                    margin: 1rem 0;
+                "
+            >
+                <p>
+                    <strong style="color: #64dfdf">1. Listen:</strong> Tap to
+                    activate voice recognition with visual feedback
+                </p>
+                <p>
+                    <strong style="color: #64dfdf">2. Process:</strong> Your
+                    speech is transcribed using Apple's Speech Recognition
+                </p>
+                <p>
+                    <strong style="color: #64dfdf">3. Generate:</strong> The
+                    GPT-4 model creates contextual responses in real-time
+                </p>
+                <p>
+                    <strong style="color: #64dfdf">4. Synthesize:</strong>
+                    Kokoro-TTS converts text to natural-sounding speech
+                </p>
+                <p>
+                    <strong style="color: #64dfdf">5. Stream:</strong> Audio
+                    plays immediately as it's generated for responsive
+                    interaction
+                </p>
+            </div>
+
+            <h2>Technology Stack</h2>
+            <div class="technologies">
+                <span class="tech-pill">SwiftUI</span>
+                <span class="tech-pill">Speech Recognition API</span>
+                <span class="tech-pill">GPT-4 OSS 20B</span>
+                <span class="tech-pill">Kokoro-TTS</span>
+                <span class="tech-pill">AVFoundation</span>
+            </div>
         </main>
 
         <footer>
